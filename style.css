@@ -1,0 +1,49 @@
+*{
+    background:#E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top:10px;
+    padding-left: 10px;
+    width: 10%
+}
+.text-area{
+    border:none;
+    color:#0a3871;
+    text-transform:lowercase;
+    background:#f8f7f7;
+    border-radius:24px;
+    padding-left:15px;
+}
+::placeholder {color:#0a3871}
+.text-area:focus{
+    outline:none
+}
+#textoDesencriptar{
+    background-image:url("/imagenes/Muneco.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.divBoton{
+    display:flex;
+    margin:auto 20px;
+}
+.boton{
+    background-color:#0a3871;
+    border:1px solid #0a3871;
+    border-radius:15px;
+    color:white;
+    cursor:pointer;
+    height:70px;
+    width:328px;
+}
+main{
+    display:flex;
+    justify-content:center;
+}
+.contenido{
+    margin:auto 5%;
+}
