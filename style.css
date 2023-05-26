@@ -23,7 +23,7 @@
     outline:none
 }
 #textoDesencriptar{
-    background-image:url("/imagenes/Muneco.png");
+    background-image:url("imagenes/Muneco.png");
     background-repeat:no-repeat;
     background-position:center;
 }
